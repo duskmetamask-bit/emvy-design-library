@@ -687,4 +687,81 @@ export const sites: SiteEntry[] = [
     
     notes: "The demo video in the hero is perfect for AI products — you understand it in 30 seconds. EMVY should consider embedded AI demos on key service pages.",
   },
+
+  // 11. GITHUB COPILOT
+  {
+    id: "github-copilot",
+    name: "GitHub Copilot",
+    url: "https://github.com/features/copilot",
+    sector: "AI / Developer Tools",
+    status: "live",
+    reviewedAt: "2026-05-18",
+
+    whatWorks: [
+      "The demo IS the product — real VS Code + Copilot chat UI, not a mockup",
+      "Dark mode with vibrant purple/blue glow effect creates depth and focus",
+      "Short punchy 3-word headline: 'Command your craft.'",
+      "Eyebrow tags with subtle cursor blink animation add life to static text",
+      "River alternating sections create rhythm without monotony",
+      "CSS-only animations — no JS animation libraries (GPU-accelerated)",
+      "Real customer photo + specific stat (94% productivity) for credibility",
+      "Marquee logo bar with pause control — social proof that doesn't feel static",
+      "Limited palette — dark grey + white + purple product color + green action color",
+      "Mona Sans variable font with tight tracking on headings",
+    ],
+
+    designVibe: ["dark mode", "high-tech", "developer-focused", "premium", "AI-forward"],
+    colorPalette: {
+      primary: "#6e40c9",    // Copilot purple
+      secondary: "#21262d", // Card surface
+      accent: "#3fb950",    // Action green
+      background: "#0d1117", // Near-black
+      text: "#f0f6fc",      // Primary text
+    },
+    typography: {
+      heading: "Mona Sans (variable, custom)",
+      body: "System font stack (Apple/Segoe/Roboto)",
+    },
+
+    pageStructure: [
+      "Sticky GitHub header (64px, blur backdrop)",
+      "Product sub-nav (48px, Copilot-focused)",
+      "Hero: full viewport, centered, glow effect + product demo",
+      "Social proof logo marquee (grayscale, auto-scroll)",
+      "3-column feature cards (dark surface, icon + headline + description)",
+      "Workflow section: 3x 'river' alternating 50/50 text/visual sections",
+      "Customer story: dark card + photo + specific stat + quote",
+      "Enterprise section",
+      "Pricing: toggle individual/business, 3-tier cards",
+      "FAQ accordion (single column, chevron animation)",
+      "Closing CTA banner (gradient)",
+      "4-column footer",
+    ],
+    heroStyle: "Full viewport, centered, dark gradient bg + purple/blue radial glow behind real VS Code + Copilot chat mockup",
+    ctaStyle: "Green filled primary ('Get started') + dark outlined secondary ('See plans & pricing')",
+    socialProofStyle: "Grayscale logo marquee (Duolingo, GM, Mercado Libre, Shopify, Stripe, Coca-Cola), auto-scrolling with pause button",
+
+    standoutComponents: [
+      "Purple/blue radial glow behind hero visual (CSS box-shadow + gradient)",
+      "Mona Sans variable font with text-wrap: balance",
+      "Eyebrow tag with cursor blink animation (CSS @keyframes)",
+      "50/50 alternating river sections for feature deep-dives",
+      "CSS-only marquee scroll animation",
+      "Card hover: border color shift + translateY(-2px) + shadow lift",
+      "Sticky header with backdrop-filter: blur(12px)",
+      "Real product UI as hero visual — not stock photography",
+    ],
+    navigationStyle: "Sticky top header (GitHub global nav) + product sub-nav below",
+    footerStyle: "4-column: Platform | Ecosystem | Support | Company + newsletter signup + social icons",
+
+    headlineFormula: "[Command verb] + [your craft]. — 3 words max, action-oriented",
+    valuePropStyle: "Product demo first, features second — show don't tell",
+    copyTone: "Confident, direct, technical but accessible. No fluff. Short punchy sentences.",
+
+    techStack: ["Next.js", "Primer Brand (GitHub design system)", "Mona Sans variable font", "Octicons (SVG icons)"],
+
+    inspiredBy: ["AI developer tools", "Dark mode SaaS", "GitHub brand"],
+
+    notes: "Best-in-class developer tool landing page. The glow effect + real product UI as hero is the key combo. EMVY should use real product screenshots as hero imagery, not mockups or stock photos.",
+  },
 ];

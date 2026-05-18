@@ -11,6 +11,7 @@ export default function Home() {
             <p className="text-white/50 text-sm mt-1">Quality website breakdowns — sector focused</p>
           </div>
           <div className="flex items-center gap-4">
+            <a href="/stack" className="text-white/40 hover:text-white text-sm transition">Stack</a>
             <span className="text-white/40 text-sm">{sites.length} sites analyzed</span>
             <div className="w-2 h-2 rounded-full bg-green-500 animate-pulse" />
             <span className="text-white/40 text-sm">Live</span>
